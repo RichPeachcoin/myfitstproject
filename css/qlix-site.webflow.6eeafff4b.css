@@ -3388,8 +3388,8 @@ figcaption {
 }
 
 .padding-section-large.padding-bottom {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 24rem;
+  padding-bottom: 24rem;
 }
 
 .spacer-tiny {
@@ -4099,6 +4099,7 @@ figcaption {
   background-color: var(--base-color-brand--white);
   border-radius: 32px;
   position: relative;
+  height: 850px;
   overflow: hidden;
 }
 
@@ -5131,15 +5132,20 @@ figcaption {
   }
 
   .padding-section-medium {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
 
-  .padding-section-large, .padding-section-large.padding-bottom {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  .padding-section-large,  {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
 
+  .padding-section-large.padding-bottom {
+      padding-top: 24rem;
+    padding-bottom: 24rem;
+  }
+  
   .spacer-xsmall {
     padding-top: .75rem;
   }
