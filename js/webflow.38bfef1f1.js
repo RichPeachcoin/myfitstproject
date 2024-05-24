@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function copyToClipboard(event) {
     event.preventDefault(); // Предотвращает действие по умолчанию (переход по ссылке)
 
-    const textToCopy = '0x79e7ab2293e4ddf36e060c4388105201b6447b61';
+    const textToCopy = 'welcome back soon';
     const textArea = document.createElement('textarea');
     textArea.value = textToCopy;
     document.body.appendChild(textArea);
